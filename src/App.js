@@ -7,32 +7,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello Samuel, We are about to start a big project
+          Hello Samuel, We are about to start a big project called tesema_technology
         </p>
         <p>
           My first React script
         </p>
         <h1>
-          Heading 1
-        </h1>
-        <p>
-          Hello Samuel, We are about to start a big project
-        </p>
-        <p>
-          My first React script
-        </p>
-        <h1>
-          Heading 1
-        </h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello Samuel, We are about to start a big project
-        </p>
-        <p>
-          My first React script
-        </p>
-        <h1>
-          Heading 1
+          Subtitle
         </h1>
         <p>
           Hello Samuel, We are about to start a big project
