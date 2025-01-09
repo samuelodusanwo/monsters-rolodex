@@ -7,7 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello Samuel, We are about to start a big project called tesema_technology
+          Hello Samuel, We are about to start a big project called tesema_Limited
+        </p>
+        <p>
+          How do you see TesemaHub
         </p>
         <p>
           My first React script
@@ -15,34 +18,7 @@ function App() {
         <h1>
           Subtitle
         </h1>
-        <p>
-          Hello Samuel, We are about to start a big project
-        </p>
-        <p>
-          My first React script
-        </p>
-        <h1>
-          Heading 1
-        </h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello Samuel, We are about to start a big project called tesema_technology
-        </p>
-        <p>
-          My first React script
-        </p>
-        <h1>
-          Subtitle
-        </h1>
-        <p>
-          Hello Samuel, We are about to start a big project
-        </p>
-        <p>
-          My first React script
-        </p>
-        <h1>
-          Heading 1
-        </h1>
+        <h2>Jesus you are LORD</h2>
         <a
           className="App-link"
           href="https://reactjs.org"
