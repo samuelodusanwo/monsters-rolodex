@@ -9,9 +9,16 @@ function App() {
         <p>
           Hello Samuel, We are about to start a big project called tesema_Limited
         </p>
-        <p>
-          How do you see TesemaHub
-        </p>
+        <h1>
+          List of tesemaLimited names
+        </h1>
+        <ol>
+          <li>Tesema-Hub</li>
+          <li>Tesema-Tech</li>
+          <li>Tesema-Saloon</li>
+          <li>Tesema-Catery</li>
+          <li>Tesema-Housings</li>
+        </ol>
         <p>
           My first React script
         </p>
