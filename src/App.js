@@ -19,6 +19,20 @@ function App() {
           <li>Tesema-Catery</li>
           <li>Tesema-Housings</li>
         </ol>
+        <ul>
+          <li>Tesema-Hub</li>
+          <li>Tesema-Tech</li>
+          <li>Tesema-Saloon</li>
+          <li>Tesema-Catery</li>
+          <li>Tesema-Housings</li>
+        </ul>
+        <ul>
+          <li>Tesema-Hub</li>
+          <li>Tesema-Tech</li>
+          <li>Tesema-Saloon</li>
+          <li>Tesema-Catery</li>
+          <li>Tesema-Housings</li>
+        </ul>
         <p>
           My first React script
         </p>
