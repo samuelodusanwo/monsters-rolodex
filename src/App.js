@@ -27,7 +27,6 @@ class App extends Component {
         <p>
           Seen this brr?
         </p>
-        <small>yes</small>
         <h1>
           Subtitle
         </h1>
