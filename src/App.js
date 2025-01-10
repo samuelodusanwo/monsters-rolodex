@@ -3,6 +3,15 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  constructor (){
+    super ();
+
+    this.state = {
+      string: 'You are a Great Man Samuel',
+      manifestation: 'You will succed in all you do'
+    }
+  }
+
   render () {
     return (
       <div className="App">
@@ -11,6 +20,9 @@ class App extends Component {
         <p>
           Hello Samuel, We are about to start a big project called tesema_Limited
         </p>
+        <p>{this.state.string}</p>
+        <p>{this.state.manifestation}</p>
+        <button onClick={(e) => this.setState({string: 'Thus said the Lord, The Plans of the evil shall not stand neither shall it come to pass', manifestation: 'Your words are lamp to guild my feet to the right direction and light to for my Path'})}>Click Me</button>
         <h1>
           List of tesemaLimited names
         </h1>
