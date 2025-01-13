@@ -32,7 +32,7 @@ class App extends Component {
           <p>Hello Samuel, we are about to start a big project called TesemaLimited</p>
 
           {
-            this.state.monsters.map(monster => <h1 key={monster.id}>{monster.name}</h1>)
+            // this.state.monsters.map(monster => <h1 key={monster.id}>{monster.name}</h1>)
           }
         </header>
       </div>
