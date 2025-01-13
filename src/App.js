@@ -4,7 +4,8 @@ import './App.css';
 
 class App extends Component {
   constructor (){
-    super ();
+    super();
+    
 
     this.state = {
       monsters : [
@@ -21,21 +22,23 @@ class App extends Component {
           id: 'mon3'
         }
       ],
-      string : "Hello great man"
+      string : 'Samuel the Tech Lord'
     }
   }
 
   render () {
     return (
       <div className="App">
-        <header classN ame="App-header">
+        <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>Hello Samuel, we are about to start a big project called TesemaLimited</p>
+          <p>Hello Samuel Odusanwo, we are about to start a big project called TesemaLimited</p>
 
-          <button onClick={() => this.setState({string: "I'm great"})}>Click Me</button>
-          {
-            this.state.monsters.map(monster => <h1 key={monster.id}>{monster.name}</h1>)
-          }
+          <button onClick={() => this.setState({string: 'I will be Great'})}>Click Me</button>
+            {
+              this.state.monsters.map(
+                monster => <h1 key={monster.id}>{monster.name}</h1>
+              )
+            }
           <p>{this.state.string}</p>
         </header>
       </div>
