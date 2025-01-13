@@ -28,12 +28,12 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="logo" />
           <p>Hello Samuel, we are about to start a big project called TesemaLimited</p>
 
           {
             this.state.monsters.map(monster => <h1 key={monster.id}>{monster.name}</h1>)
-          } */}
+          }
         </header>
       </div>
     )
