@@ -50,6 +50,26 @@ class App extends Component {
               )
             }
           <p>{this.state.string}</p>
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>Hello Samuel Odusanwo, we are about to start a big project called TesemaLimited</p>
+
+          <button onClick={() => this.setState({string: 'I will be Great'})}>Click Me</button>
+            {
+              this.state.monsters.map(
+                monster => <h1 key={monster.id}>{monster.name}</h1>
+              )
+            }
+            {
+              this.state.monsters.map(
+                monster => <h1 key={monster.id}>{monster.name}</h1>
+              )
+            }
+            {
+              this.state.monsters.map(
+                monster => <h1 key={monster.id}>{monster.name}</h1>
+              )
+            }
+          <p>{this.state.string}</p>
         </header>
       </div>
     )
