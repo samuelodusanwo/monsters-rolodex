@@ -44,6 +44,11 @@ class App extends Component {
                 monster => <h1 key={monster.id}>{monster.name}</h1>
               )
             }
+            {
+              this.state.monsters.map(
+                monster => <h1 key={monster.id}>{monster.name}</h1>
+              )
+            }
           <p>{this.state.string}</p>
         </header>
       </div>
