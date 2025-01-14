@@ -4,28 +4,20 @@ import './App.css';
 
 class App extends Component {
   constructor (){
-    super();
-    
+    super()
 
     this.state = {
-      monsters : [
-        {
-          name: 'Frankenstein',
-          id: 'mon1'
-        }, 
-        {
-          name: 'Dracula',
-          id: 'mon2'
-        },
-        {
-          name: 'Zombie',
-          id: 'mon3'
-        }
-      ],
+      data: [],
       string : 'Samuel the Tech Lord'
     }
   }
 
+  componentDidMount() {
+    fetch('https://jsonplaceholder.typicode.com/users')
+      .then(response => response.json())
+      .then(data => this.setState({data}))
+  }
+  
   render () {
     return (
       <div className="App">
@@ -34,12 +26,9 @@ class App extends Component {
           <p>Hello Samuel Odusanwo, we are about to start a big project called TesemaLimited</p>
 
           <button onClick={() => this.setState({string: "I'm super Great"})}>Click Me</button>
-            {
-              this.state.monsters.map(
-                monster => <h1 key={monster.id}>{monster.name}</h1>
-              )
-            }
           <p>{this.state.string}</p>
+
+          
         </header>
       </div>
     )
