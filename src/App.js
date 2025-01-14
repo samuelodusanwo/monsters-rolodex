@@ -28,11 +28,11 @@ class App extends Component {
           <button onClick={() => this.setState({string: "I'm super Great"})}>Click Me</button>
           <p>{this.state.string}</p>
 
-          {
-            this.state.data.map(
-              user => <h1 key={user.id}>{user.username}</h1>
-            )
-          }
+         {
+          this.state.data.map(
+            user => <h1 key={user.id}>{user.name}</h1>
+          )
+         }
         </header>
       </div>
     )
