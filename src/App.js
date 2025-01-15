@@ -30,7 +30,21 @@ class App extends Component {
           <CardList>
             {
               this.state.data.map(
-                user => <h1 key={user.id}>{user.username}</h1>
+                user => <h1 key={user.id}>{user.name}</h1>
+              )
+            }
+          </CardList>
+          <CardList>
+            {
+              this.state.data.map(
+                user => <h1 key={user.id}>{user.name}</h1>
+              )
+            }
+          </CardList>
+          <CardList>
+            {
+              this.state.data.map(
+                user => <h1 key={user.id}>{user.name}</h1>
               )
             }
           </CardList>
