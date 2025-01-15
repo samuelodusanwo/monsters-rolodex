@@ -9,7 +9,8 @@ class App extends Component {
 
     this.state = {
       data: [],
-      string: 'Hello Samuel Odusanwo'
+      string: 'Hello Samuel Odusanwo',
+      monster: []
     }
   }
 
@@ -27,20 +28,6 @@ class App extends Component {
           <p>Hello Samuel Odusanwo, we are about to start a big project called TesemaLimited</p>
           <button onClick={() => this.setState({string: "I'm Great"})}>Click Me</button>
           <p>{this.state.string}</p>
-          <CardList>
-            {
-              this.state.data.map(
-                user => <h1 key={user.id}>{user.name}</h1>
-              )
-            }
-          </CardList>
-          <CardList>
-            {
-              this.state.data.map(
-                user => <h1 key={user.id}>{user.name}</h1>
-              )
-            }
-          </CardList>
           <CardList>
             {
               this.state.data.map(
