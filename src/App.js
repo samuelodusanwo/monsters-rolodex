@@ -9,6 +9,7 @@ class App extends Component {
 
     this.state = {
       monsters: [],
+      searchField: [],
       string: 'Best developer of the year 2025!'
     }
   }
@@ -22,11 +23,11 @@ class App extends Component {
   render () {
     return (
       <div className="App">
-        <header className="App-header">
+        <header className="App-header"> 
           <h4>Hello Samuel, We are about to start a big Project for the year</h4>
           <p>{this.state.string}</p>
           <button onClick={() => this.setState({string: 'And the best Hacker of the year 2025!'})}>Click me</button>
-          <input type='search' placeholder='Search monster'/>
+          <input type="search" placeholder="Search monsters" onChange={e => this.setState({searchField: e.target.value})}/>
           <CardList monsters={this.state.monsters}/>
         </header>
       </div>
