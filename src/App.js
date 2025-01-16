@@ -16,7 +16,7 @@ class App extends Component {
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
-      .then(monsters => this.setState({monsters}))
+      .then(users => this.setState({monsters: users}))
   }
 
   render () {
@@ -27,6 +27,7 @@ class App extends Component {
           <p>Hello Samuel Odusanwo, we are about to start a big project called TesemaLimited</p>
           <button onClick={() => this.setState({string: "I'm Great"})}>Click Me</button>
           <p>{this.state.string}</p> */}
+          <input type="search" placeholder='Search monster' />
           <CardList monsters={this.state.monsters} />
         </header>
       </div>
