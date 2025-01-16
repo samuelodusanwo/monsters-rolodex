@@ -1,34 +1,33 @@
 import React, {Component} from 'react';
 // import logo from './logo.svg';
+import {CardList} from './components/card-lists/card-list.component';
 import './App.css';
-import { CardList } from './components/card-lists/card-list.component';
 
 class App extends Component {
   constructor() {
-    super()
+    super();
 
     this.state = {
-      string: 'Hello Samuel Odusanwo',
-      monsters: []
+      monsters: [],
+      string: 'Best developer of the year 2025!'
     }
   }
 
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
-      .then(users => this.setState({monsters: users}))
+      .then(user => this.setState({monsters: user}))
   }
 
   render () {
     return (
       <div className="App">
         <header className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" />
-          <p>Hello Samuel Odusanwo, we are about to start a big project called TesemaLimited</p>
-          <button onClick={() => this.setState({string: "I'm Great"})}>Click Me</button>
-          <p>{this.state.string}</p> */}
-          <input type="search" placeholder='Search monster' />
-          <CardList monsters={this.state.monsters} />
+          <h4>Hello Samuel, We are about to start a big Project for the year</h4>
+          <p>{this.state.string}</p>
+          <button onClick={() => this.setState({string: 'And the best Hacker of the year 2025!'})}>Click me</button>
+          <input type='search' placeholder='Search monster'/>
+          <CardList monsters={this.state.monsters}/>
         </header>
       </div>
     )
