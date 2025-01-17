@@ -33,6 +33,9 @@ class App extends Component {
           <p>{this.state.string}</p>
           <button onClick={() => this.setState({string: 'And the best Hacker of the year 2025!'})}>Click me</button>
           <input type="search" placeholder="Search monsters" onChange={e => this.setState({searchField: e.target.value})}/>
+          <p>{this.state.string}</p>
+          <button onClick={() => this.setState({string: 'And the best Hacker of the year 2025!'})}>Click me</button>
+          <input type="search" placeholder="Search monsters" onChange={e => this.setState({searchField: e.target.value})}/>
           <CardList monsters={filteredMonsters}/>
         </header>
       </div>
