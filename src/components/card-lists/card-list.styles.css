@@ -6,6 +6,6 @@
     grid-gap: 20px;
 }
 
-h3, small{
+h3, h1, small{
     font-size: clamp(32px,2.5vw,42px);
 }
