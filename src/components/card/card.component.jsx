@@ -23,10 +23,5 @@ export const Card = (props) => (
         <small>{props.monster.email}</small>
         <h1>{props.monster.username}</h1>
         <h3>{props.monster.name}</h3>
-        <small>{props.monster.email}</small>
-        <h1>{props.monster.username}</h1>
-        <h3>{props.monster.name}</h3>
-        <small>{props.monster.email}</small>
-        <h1>{props.monster.username}</h1>
     </div>
 )
