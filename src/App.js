@@ -78,12 +78,6 @@ class App extends Component {
           <h4>Hello Samuel, We are about to start a big Project for the year</h4>
           <p>{this.state.string}</p>
           <button onClick={() => this.setState({string: 'And the best Hacker of the year 2025!'})}>Click me</button>
-          <h4>Hello Samuel, We are about to start a big Project for the year</h4>
-          <p>{this.state.string}</p>
-          <button onClick={() => this.setState({string: 'And the best Hacker of the year 2025!'})}>Click me</button>
-          <h4>Hello Samuel, We are about to start a big Project for the year</h4>
-          <p>{this.state.string}</p>
-          <button onClick={() => this.setState({string: 'And the best Hacker of the year 2025!'})}>Click me</button>
           <h1 className='main_heading'>Monster Rolodex</h1>
           <SearchBox
             placeholder='Search monsters'
